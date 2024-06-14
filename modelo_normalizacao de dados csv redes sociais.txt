@@ -1,0 +1,24 @@
+# Normalização dos Arquivos - >>
+## Modelo Instagram	
+ID
+Author
+Url
+Date
+Likes
+Shares
+Comments
+Content
+Service ((Plataforma))
+		((	Canal	))
+Sentiment (( Positive; Negative, Neutral ))
+Engagement
+
+##Modelo Facebook
+
+
+/workspaces/madonna/face;
+/workspaces/madonna/Insta;
+/workspaces/madonna/X.
+
+
+
