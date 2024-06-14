@@ -17,3 +17,26 @@
 ![sentiments_buzzmonitor_trends (3)](https://github.com/accperformance/madonna/assets/62457806/ce948e69-57ca-48b0-a539-8478ed3b5592)
 
 ## Update de codigo> 20240614> apos reunião de 20240613 chagamos a conclusão da necessidade de atualizar os arquivos .csv com head, o label conter informações minimas para facilitar compreenção>> plataforma, data hora da publicação; normalização do formato do arquivo entre todas as plataformas para possivel analise cruzada ##
+
+# Notas sobre conceito do codigo: #
+
+Código Python em um Jupyter Notebook para realizar as seguintes tarefas:
+
+Varrer os diretórios \madonna\face\, \madonna\Insta\ e \madonna\X\ em busca de arquivos .csv.
+Criar a pasta \madonna\split caso ela não exista.
+Ler cada arquivo .csv e gerar novos arquivos .csv onde cada linha original será um novo arquivo.
+Nomear os novos arquivos com base na data, um número sequencial e o valor de sentimento.
+
+Explicação:
+Importações: Importamos as bibliotecas necessárias (os, pandas, datetime).
+Diretórios: Definimos os diretórios de entrada e o diretório de saída.
+Criação do Diretório de Saída: Utilizamos os.makedirs com exist_ok=True para criar a pasta \madonna\split se ela não existir.
+Função get_sentiment_code: Função para mapear os sentimentos para seus respectivos códigos.
+Processamento dos Arquivos:
+Iteramos sobre os diretórios e arquivos .csv.
+Para cada arquivo .csv, lemos o conteúdo e separamos o cabeçalho.
+Iteramos sobre cada linha do DataFrame, gerando um novo nome de arquivo baseado na data atual, código de sentimento e número sequencial.
+Salvamos cada linha como um novo arquivo .csv no diretório de saída.
+Assumptions:
+A coluna de sentimento no CSV se chama sentiment. Caso tenha outro nome, ajuste essa parte do código.
+A estrutura dos arquivos .csv é conhecida e consistente.
