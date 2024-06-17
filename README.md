@@ -40,6 +40,7 @@ A estrutura dos arquivos .csv é conhecida e consistente.
 ![shares_by_network (3)](https://github.com/accperformance/madonna/assets/62457806/638b913f-b70b-4f10-82fe-6a2fec4fde15)
 ![data_buzzmonitor_trends (3)](https://github.com/accperformance/madonna/assets/62457806/e487595f-a5b7-42bb-8408-7be7cf006dee)
 ![sentiments_buzzmonitor_trends (3)](https://github.com/accperformance/madonna/assets/62457806/ce948e69-57ca-48b0-a539-8478ed3b5592)
+![alt text](<term_evolution_buzzmonitor (6).png>) ![alt text](term_evolution_buzzmonitor.png) ![alt text](<term_evolution_buzzmonitor (1).png>) ![alt text](<term_evolution_buzzmonitor (2).png>) ![alt text](<term_evolution_buzzmonitor (3).png>) ![alt text](<term_evolution_buzzmonitor (4).png>) ![alt text](<term_evolution_buzzmonitor (5).png>)
 
 ## Update de codigo> 20240614> apos reunião de 20240613 chagamos a conclusão da necessidade de atualizar os arquivos .csv com head, o label conter informações minimas para facilitar compreenção>> plataforma, data hora da publicação; normalização do formato do arquivo entre todas as plataformas para possivel analise cruzada ##
 
